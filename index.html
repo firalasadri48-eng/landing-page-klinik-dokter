@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Klinik Sehat Cahaya — Klinik Pratama di Bandung | Buat Janji via WhatsApp</title>
+  <meta name="description" content="Klinik Sehat Cahaya melayani poli umum, poli gigi, dan poli anak. Buat janji berobat lewat WhatsApp, datang sesuai jadwal, langsung ditangani dokter.">
+  <meta property="og:title" content="Klinik Sehat Cahaya — Berobat Jadi Tenang, Tanpa Antre Lama">
+  <meta property="og:description" content="Poli umum, poli gigi, dan poli anak dalam satu atap. Buat janji via WhatsApp dan datang sesuai jadwal Anda.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./shared/base.css">
+  <link rel="stylesheet" href="site.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div id="site-nav"></div>
+
+  <main id="konten">
+    <p id="notice" class="wrap notice" hidden></p>
+
+    <section id="beranda" class="hero" aria-labelledby="hero-title">
+      <svg class="pulse-line" viewBox="0 0 420 120" aria-hidden="true" focusable="false">
+        <path d="M0 60 H120 l14-34 18 68 16-52 12 18 H260 l14-34 18 68 16-52 12 18 H420"
+              fill="none" stroke="#0d7a78" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div class="wrap hero-grid">
+        <div id="hero-copy"></div>
+        <div id="hero-form"></div>
+      </div>
+    </section>
+
+    <section id="layanan" class="section" aria-labelledby="layanan-title">
+      <div class="wrap">
+        <div id="layanan-head"></div>
+        <div id="layanan-grid" class="layanan-grid"></div>
+      </div>
+    </section>
+
+    <section id="jadwal" class="section" aria-labelledby="jadwal-title" style="background: var(--color-surface);">
+      <div class="wrap">
+        <div id="jadwal-head"></div>
+        <div id="jadwal-body"></div>
+      </div>
+    </section>
+
+    <section id="alur" class="section" aria-labelledby="alur-title">
+      <div class="wrap">
+        <div id="alur-head"></div>
+        <ol id="alur-list" class="alur-list"></ol>
+      </div>
+    </section>
+
+    <section id="pembayaran" class="section" aria-labelledby="pembayaran-title" style="background: var(--color-surface);">
+      <div class="wrap">
+        <div id="pembayaran-head"></div>
+        <div id="pembayaran-grid" class="bayar-grid"></div>
+      </div>
+    </section>
+
+    <section id="faq" class="section" aria-labelledby="faq-title">
+      <div class="wrap">
+        <div id="faq-head"></div>
+        <div id="faq-wrap" class="faq-wrap" data-faq></div>
+      </div>
+    </section>
+
+    <section id="kontak" class="section" aria-labelledby="kontak-title" style="background: var(--color-surface);">
+      <div class="wrap">
+        <div id="kontak-head"></div>
+        <div id="kontak-grid" class="kontak-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script type="module" src="site.js"></script>
+</body>
+</html>
